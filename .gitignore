@@ -3,4 +3,5 @@ __pycache__/
 *.pyc
 data/ddragon/raw/
 data/ddragon/icons/
+data/ddragon/splashes/
 data/fandom_api/raw/
