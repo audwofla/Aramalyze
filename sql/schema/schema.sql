@@ -57,9 +57,26 @@ CREATE TABLE participant_items (
   FOREIGN KEY (match_id, puuid) REFERENCES participants(match_id, puuid) ON DELETE CASCADE
 );
 
-CREATE TABLE aram_changes (
-  champion_id  INT  NOT NULL REFERENCES champions(id),
-  patch        TEXT NOT NULL,
-  change_text  TEXT NOT NULL,
-  PRIMARY KEY (champion_id, patch, change_text)
+
+CREATE TABLE champion_aram_mods (
+    champion_id    INT NOT NULL REFERENCES champions(id) ON DELETE CASCADE,
+    patch          TEXT NOT NULL,
+    ability_haste  REAL,
+    dmg_dealt      REAL,
+    dmg_taken      REAL,
+    healing        REAL,
+    shielding      REAL,
+    tenacity       REAL, 
+    attack_speed   REAL,
+    energy_regen   REAL,
+    PRIMARY KEY (champion_id, patch)
+);
+
+CREATE TABLE champion_spell_changes (
+    champion_id   INT  NOT NULL REFERENCES champions(id) ON DELETE CASCADE,
+    patch         TEXT NOT NULL,
+    spell_key     TEXT NOT NULL,          
+    idx           INT  NOT NULL,         
+    change_text   TEXT NOT NULL,
+    PRIMARY KEY (champion_id, patch, spell_key, idx)
 );
