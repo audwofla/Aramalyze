@@ -30,10 +30,10 @@
         "Assassin"
       ],
       "aram_mods": {
-        "dmg_dealt": 1.05,
+        "tenacity": 1.2,
         "dmg_taken": 0.9,
-        "energy_regen": 1.2,
-        "tenacity": 1.2
+        "dmg_dealt": 1.05,
+        "energy_regen": 1.2
       }
     },
     "166": {
@@ -67,9 +67,9 @@
         "Support"
       ],
       "aram_mods": {
+        "healing": 0.8,
         "dmg_dealt": 0.95,
-        "dmg_taken": 1.05,
-        "healing": 0.8
+        "dmg_taken": 1.05
       }
     },
     "799": {
@@ -114,9 +114,9 @@
         "Support"
       ],
       "aram_mods": {
+        "shielding": 0.9,
         "dmg_dealt": 0.95,
-        "dmg_taken": 1.05,
-        "shielding": 0.9
+        "dmg_taken": 1.05
       }
     },
     "523": {
@@ -140,9 +140,9 @@
         "Support"
       ],
       "aram_mods": {
+        "attack_speed": 1.03,
         "dmg_dealt": 1.05,
-        "dmg_taken": 1,
-        "attack_speed": 1.03
+        "dmg_taken": 1
       },
       "spell_changes": {
         "P": [],
@@ -191,8 +191,8 @@
       "aram_mods": {
         "ability_haste": 20,
         "dmg_taken": 0.95,
-        "attack_speed": 1.025,
-        "dmg_dealt": 1
+        "dmg_dealt": 1,
+        "attack_speed": 1.025
       },
       "spell_changes": {
         "P": [],
@@ -213,9 +213,9 @@
         "Mage"
       ],
       "aram_mods": {
+        "healing": 1.2,
         "dmg_dealt": 1.15,
-        "dmg_taken": 0.85,
-        "healing": 1.2
+        "dmg_taken": 0.85
       },
       "spell_changes": {
         "P": [
@@ -268,9 +268,9 @@
         "Support"
       ],
       "aram_mods": {
+        "ability_haste": -10,
         "dmg_dealt": 0.95,
-        "dmg_taken": 1.1,
-        "ability_haste": -10
+        "dmg_taken": 1.1
       }
     },
     "201": {
@@ -317,10 +317,10 @@
       ],
       "aram_mods": {
         "ability_haste": 10,
-        "shielding": 1.1,
         "dmg_taken": 0.95,
-        "healing": 1.2,
-        "dmg_dealt": 1.05
+        "shielding": 1.1,
+        "dmg_dealt": 1.05,
+        "healing": 1.2
       }
     },
     "69": {
@@ -353,8 +353,8 @@
         "Mage"
       ],
       "aram_mods": {
-        "ability_haste": 20,
-        "dmg_taken": 0.9
+        "dmg_taken": 0.9,
+        "ability_haste": 20
       }
     },
     "122": {
@@ -404,9 +404,9 @@
         "Fighter"
       ],
       "aram_mods": {
+        "healing": 0.9,
         "dmg_dealt": 0.9,
-        "dmg_taken": 1.05,
-        "healing": 0.9
+        "dmg_taken": 1.05
       }
     },
     "245": {
@@ -418,8 +418,8 @@
         "Mage"
       ],
       "aram_mods": {
-        "dmg_dealt": 1.1,
         "dmg_taken": 1,
+        "dmg_dealt": 1.1,
         "tenacity": 1.2
       }
     },
@@ -432,8 +432,8 @@
         "Mage"
       ],
       "aram_mods": {
-        "dmg_dealt": 1.05,
         "dmg_taken": 0.9,
+        "dmg_dealt": 1.05,
         "tenacity": 1.2
       }
     },
@@ -446,8 +446,8 @@
         "Mage"
       ],
       "aram_mods": {
-        "dmg_dealt": 1.1,
         "dmg_taken": 0.9,
+        "dmg_dealt": 1.1,
         "tenacity": 1.2
       }
     },
@@ -498,8 +498,8 @@
         "Fighter"
       ],
       "aram_mods": {
-        "dmg_dealt": 1.05,
         "dmg_taken": 0.95,
+        "dmg_dealt": 1.05,
         "tenacity": 1.1
       }
     },
@@ -566,9 +566,9 @@
         "Tank"
       ],
       "aram_mods": {
+        "attack_speed": 1.025,
         "dmg_dealt": 1.05,
-        "dmg_taken": 0.95,
-        "attack_speed": 1.025
+        "dmg_taken": 0.95
       }
     },
     "79": {
@@ -611,10 +611,10 @@
         "Tank"
       ],
       "aram_mods": {
-        "dmg_dealt": 1.05,
-        "dmg_taken": 0.9,
+        "healing": 1.2,
         "ability_haste": 10,
-        "healing": 1.2
+        "dmg_dealt": 1.05,
+        "dmg_taken": 0.9
       }
     },
     "74": {
@@ -672,9 +672,9 @@
         "Tank"
       ],
       "aram_mods": {
+        "healing": 0.8,
         "dmg_dealt": 0.95,
-        "dmg_taken": 1.05,
-        "healing": 0.8
+        "dmg_taken": 1.05
       }
     },
     "39": {
@@ -687,8 +687,8 @@
       ],
       "aram_mods": {
         "ability_haste": 20,
-        "dmg_taken": 1,
-        "dmg_dealt": 1
+        "dmg_dealt": 1,
+        "dmg_taken": 1
       }
     },
     "427": {
@@ -713,10 +713,10 @@
         "Mage"
       ],
       "aram_mods": {
-        "dmg_dealt": 0.95,
-        "dmg_taken": 1.05,
+        "healing": 0.9,
         "shielding": 0.95,
-        "healing": 0.9
+        "dmg_dealt": 0.95,
+        "dmg_taken": 1.05
       },
       "spell_changes": {
         "P": [],
@@ -799,9 +799,9 @@
         "Mage"
       ],
       "aram_mods": {
+        "attack_speed": 1.025,
         "dmg_dealt": 1,
-        "dmg_taken": 0.95,
-        "attack_speed": 1.025
+        "dmg_taken": 0.95
       }
     },
     "429": {
@@ -900,8 +900,8 @@
         "Assassin"
       ],
       "aram_mods": {
-        "dmg_dealt": 1,
         "healing": 0.8,
+        "dmg_dealt": 1,
         "tenacity": 1.2
       },
       "spell_changes": {
@@ -922,8 +922,8 @@
         "Mage"
       ],
       "aram_mods": {
-        "dmg_dealt": 1.05,
         "dmg_taken": 1,
+        "dmg_dealt": 1.05,
         "energy_regen": 1.2
       }
     },
@@ -935,9 +935,9 @@
         "Assassin"
       ],
       "aram_mods": {
-        "dmg_dealt": 1.1,
-        "dmg_taken": 0.9,
         "healing": 1.2,
+        "dmg_taken": 0.9,
+        "dmg_dealt": 1.1,
         "tenacity": 1.2
       }
     },
@@ -949,9 +949,9 @@
         "Marksman"
       ],
       "aram_mods": {
+        "attack_speed": 1.025,
         "dmg_dealt": 1.1,
-        "dmg_taken": 0.9,
-        "attack_speed": 1.025
+        "dmg_taken": 0.9
       }
     },
     "240": {
@@ -1002,8 +1002,8 @@
       ],
       "aram_mods": {
         "ability_haste": 20,
-        "dmg_taken": 0.9,
-        "dmg_dealt": 1.1
+        "dmg_dealt": 1.1,
+        "dmg_taken": 0.9
       }
     },
     "64": {
@@ -1015,11 +1015,11 @@
         "Assassin"
       ],
       "aram_mods": {
-        "dmg_dealt": 1.05,
-        "shielding": 1.2,
+        "healing": 1.1,
         "dmg_taken": 0.95,
-        "energy_regen": 1.2,
-        "healing": 1.1
+        "shielding": 1.2,
+        "dmg_dealt": 1.05,
+        "energy_regen": 1.2
       }
     },
     "89": {
@@ -1106,9 +1106,9 @@
         "Support"
       ],
       "aram_mods": {
+        "shielding": 0.8,
         "dmg_dealt": 0.85,
-        "dmg_taken": 1.1,
-        "shielding": 0.8
+        "dmg_taken": 1.1
       }
     },
     "54": {
@@ -1154,9 +1154,9 @@
         "Support"
       ],
       "aram_mods": {
+        "healing": 0.9,
         "dmg_dealt": 0.8,
-        "dmg_taken": 1.1,
-        "healing": 0.9
+        "dmg_taken": 1.1
       }
     },
     "11": {
@@ -1191,8 +1191,8 @@
       ],
       "aram_mods": {
         "ability_haste": -10,
-        "healing": 0.95,
-        "shielding": 0.9
+        "shielding": 0.9,
+        "healing": 0.95
       }
     },
     "21": {
@@ -1265,9 +1265,9 @@
         "Mage"
       ],
       "aram_mods": {
+        "healing": 0.9,
         "dmg_dealt": 0.95,
-        "dmg_taken": 1.05,
-        "healing": 0.9
+        "dmg_taken": 1.05
       }
     },
     "75": {
@@ -1348,9 +1348,9 @@
         "Assassin"
       ],
       "aram_mods": {
+        "healing": 1.2,
         "dmg_dealt": 1.1,
-        "dmg_taken": 0.9,
-        "healing": 1.2
+        "dmg_taken": 0.9
       }
     },
     "20": {
@@ -1362,11 +1362,11 @@
         "Mage"
       ],
       "aram_mods": {
-        "dmg_dealt": 1.1,
-        "tenacity": 1.2,
+        "healing": 1.1,
         "dmg_taken": 0.9,
-        "shielding": 1.2,
-        "healing": 1.1
+        "tenacity": 1.2,
+        "dmg_dealt": 1.1,
+        "shielding": 1.2
       }
     },
     "2": {
@@ -1442,8 +1442,8 @@
         "Assassin"
       ],
       "aram_mods": {
-        "dmg_dealt": 1.1,
         "dmg_taken": 0.95,
+        "dmg_dealt": 1.1,
         "tenacity": 1.2
       }
     },
@@ -1455,8 +1455,8 @@
         "Assassin"
       ],
       "aram_mods": {
-        "dmg_dealt": 1.15,
         "dmg_taken": 0.9,
+        "dmg_dealt": 1.15,
         "tenacity": 1.2
       },
       "spell_changes": {
@@ -1478,9 +1478,9 @@
         "Assassin"
       ],
       "aram_mods": {
-        "dmg_dealt": 1.1,
-        "dmg_taken": 0.9,
         "attack_speed": 1.025,
+        "dmg_taken": 0.9,
+        "dmg_dealt": 1.1,
         "tenacity": 1.2
       }
     },
@@ -1530,10 +1530,10 @@
         "Support"
       ],
       "aram_mods": {
-        "dmg_dealt": 0.95,
-        "dmg_taken": 1,
+        "healing": 0.9,
         "shielding": 0.9,
-        "healing": 0.9
+        "dmg_dealt": 0.95,
+        "dmg_taken": 1
       }
     },
     "888": {
@@ -1545,9 +1545,9 @@
         "Mage"
       ],
       "aram_mods": {
+        "shielding": 0.8,
         "dmg_dealt": 0.95,
-        "dmg_taken": 1.05,
-        "shielding": 0.8
+        "dmg_taken": 1.05
       }
     },
     "58": {
@@ -1572,8 +1572,8 @@
         "Fighter"
       ],
       "aram_mods": {
-        "dmg_dealt": 1.05,
         "dmg_taken": 0.92,
+        "dmg_dealt": 1.05,
         "tenacity": 1.2
       }
     },
@@ -1586,9 +1586,9 @@
         "Assassin"
       ],
       "aram_mods": {
+        "shielding": 1,
         "dmg_dealt": 1.05,
-        "dmg_taken": 0.92,
-        "shielding": 1
+        "dmg_taken": 0.92
       }
     },
     "68": {
@@ -1664,10 +1664,10 @@
       ],
       "aram_mods": {
         "ability_haste": -20,
-        "shielding": 0.8,
         "dmg_taken": 1.2,
-        "healing": 0.8,
-        "dmg_dealt": 0.9
+        "shielding": 0.8,
+        "dmg_dealt": 0.9,
+        "healing": 0.8
       }
     },
     "875": {
@@ -1679,10 +1679,10 @@
         "Tank"
       ],
       "aram_mods": {
-        "dmg_dealt": 0.9,
-        "dmg_taken": 1.1,
+        "healing": 0.9,
         "shielding": 0.9,
-        "healing": 0.9
+        "dmg_dealt": 0.9,
+        "dmg_taken": 1.1
       }
     },
     "35": {
@@ -1763,8 +1763,8 @@
       ],
       "aram_mods": {
         "ability_haste": -10,
-        "dmg_taken": 1.1,
-        "dmg_dealt": 0.9
+        "dmg_dealt": 0.9,
+        "dmg_taken": 1.1
       },
       "spell_changes": {
         "P": [
@@ -1836,10 +1836,10 @@
       ],
       "aram_mods": {
         "ability_haste": -20,
-        "shielding": 0.85,
         "dmg_taken": 1.1,
-        "healing": 0.85,
-        "dmg_dealt": 1
+        "shielding": 0.85,
+        "dmg_dealt": 1,
+        "healing": 0.85
       }
     },
     "16": {
@@ -1863,9 +1863,9 @@
         "Support"
       ],
       "aram_mods": {
+        "healing": 0.8,
         "dmg_dealt": 0.9,
-        "dmg_taken": 1.15,
-        "healing": 0.8
+        "dmg_taken": 1.15
       }
     },
     "517": {
@@ -1925,8 +1925,8 @@
         "Assassin"
       ],
       "aram_mods": {
-        "dmg_dealt": 1.05,
         "dmg_taken": 0.95,
+        "dmg_dealt": 1.05,
         "tenacity": 1.2
       }
     },
@@ -1952,8 +1952,8 @@
       ],
       "aram_mods": {
         "ability_haste": -20,
-        "dmg_taken": 1.1,
-        "dmg_dealt": 0.9
+        "dmg_dealt": 0.9,
+        "dmg_taken": 1.1
       },
       "spell_changes": {
         "P": [],
@@ -2009,8 +2009,8 @@
         "Tank"
       ],
       "aram_mods": {
-        "healing": 1,
-        "dmg_taken": 1.05
+        "dmg_taken": 1.05,
+        "healing": 1
       }
     },
     "23": {
@@ -2022,9 +2022,9 @@
         "Assassin"
       ],
       "aram_mods": {
+        "healing": 1.35,
         "dmg_dealt": 1.1,
-        "dmg_taken": 0.9,
-        "healing": 1.35
+        "dmg_taken": 0.9
       }
     },
     "4": {
@@ -2192,9 +2192,9 @@
         "Fighter"
       ],
       "aram_mods": {
+        "healing": 0.9,
         "dmg_dealt": 0.95,
-        "dmg_taken": 1.05,
-        "healing": 0.9
+        "dmg_taken": 1.05
       }
     },
     "106": {
@@ -2215,9 +2215,9 @@
         "Tank"
       ],
       "aram_mods": {
+        "healing": 1.05,
         "dmg_dealt": 1.05,
-        "dmg_taken": 0.95,
-        "healing": 1.05
+        "dmg_taken": 0.95
       }
     },
     "498": {
@@ -2228,9 +2228,9 @@
         "Marksman"
       ],
       "aram_mods": {
+        "attack_speed": 1.03,
         "dmg_dealt": 1.05,
-        "dmg_taken": 1,
-        "attack_speed": 1.03
+        "dmg_taken": 1
       }
     },
     "101": {
@@ -2279,9 +2279,9 @@
         "Assassin"
       ],
       "aram_mods": {
+        "attack_speed": 1.025,
         "dmg_dealt": 1.05,
-        "dmg_taken": 0.97,
-        "attack_speed": 1.025
+        "dmg_taken": 0.97
       }
     },
     "83": {
@@ -2340,8 +2340,8 @@
         "Fighter"
       ],
       "aram_mods": {
-        "healing": 1.1,
-        "dmg_taken": 0.96
+        "dmg_taken": 0.96,
+        "healing": 1.1
       }
     },
     "238": {
@@ -2352,10 +2352,10 @@
         "Assassin"
       ],
       "aram_mods": {
-        "dmg_dealt": 1.05,
+        "tenacity": 1.2,
         "dmg_taken": 0.95,
-        "energy_regen": 1.2,
-        "tenacity": 1.2
+        "dmg_dealt": 1.05,
+        "energy_regen": 1.2
       }
     },
     "221": {
@@ -2388,8 +2388,8 @@
       ],
       "aram_mods": {
         "ability_haste": -20,
-        "dmg_taken": 1.2,
-        "dmg_dealt": 0.87
+        "dmg_dealt": 0.87,
+        "dmg_taken": 1.2
       },
       "spell_changes": {
         "P": [
@@ -2413,8 +2413,8 @@
       ],
       "aram_mods": {
         "ability_haste": 10,
-        "dmg_taken": 0.95,
-        "dmg_dealt": 1.05
+        "dmg_dealt": 1.05,
+        "dmg_taken": 0.95
       }
     },
     "142": {
@@ -2438,9 +2438,9 @@
         "Support"
       ],
       "aram_mods": {
+        "ability_haste": -10,
         "dmg_dealt": 0.9,
-        "dmg_taken": 1.05,
-        "ability_haste": -10
+        "dmg_taken": 1.05
       }
     }
   }
