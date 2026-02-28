@@ -7,6 +7,7 @@ import joblib
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, roc_auc_score
+from sklearn.model_selection import GridSearchCV
 
 from .features import load_team_csv, build_vocab, featurize_df
 
@@ -36,15 +37,12 @@ def main():
 
     X_train, y_train = featurize_df(train_df, vocab)
     X_test, y_test = featurize_df(test_df, vocab)
-
+    
     model = LogisticRegression(
-        C=0.1,
-        penalty="elasticnet",
+        C=0.15,
         l1_ratio=0.5,
-        max_iter=3000,
+        max_iter=5000,
         solver="saga",
-        n_jobs=-1,
-        class_weight="balanced",
     )
 
     model.fit(X_train, y_train)
