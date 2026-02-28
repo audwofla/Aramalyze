@@ -79,7 +79,6 @@ def main(batch_size: int = 10):
                     participants = info["participants"]
 
                     with conn.cursor() as cur:
-                        # 1) matches
                         cur.execute(
                             """
                             INSERT INTO matches(match_id, patch, queue_id, game_datetime)
@@ -89,7 +88,6 @@ def main(batch_size: int = 10):
                             (match_id, patch, info["queueId"], game_dt),
                         )
 
-                        # 2) ensure accounts exist (FK)
                         for p in participants:
                             cur.execute(
                                 """
@@ -100,7 +98,6 @@ def main(batch_size: int = 10):
                                 (p["puuid"],),
                             )
 
-                        # 3) participants
                         for p in participants:
                             cur.execute(
                                 """
@@ -147,7 +144,6 @@ def main(batch_size: int = 10):
                                     (match_id, p["puuid"], item_id, slot),
                                 )
 
-                        # mark done
                         cur.execute(
                             """
                             UPDATE match_queue
@@ -158,7 +154,7 @@ def main(batch_size: int = 10):
                         )
 
                     conn.commit()
-                    print(f"done {match_id}")
+                    #print(f"done {match_id}")
 
                 except Exception as e:
                     conn.rollback()
