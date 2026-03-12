@@ -39,7 +39,7 @@ def main():
     X_test, y_test = featurize_df(test_df, vocab)
     
     model = LogisticRegression(
-        C=0.15,
+        C=.16,
         l1_ratio=0.5,
         max_iter=5000,
         solver="saga",
